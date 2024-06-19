@@ -16,12 +16,12 @@ const config = {
   url: 'https://nevm1ss.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-website/',
+  baseUrl: '/my-website',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nevm1ss', // Usually your GitHub org/user name.
-  projectName: 'my-website', // Usually your repo name.
+  projectName: 'nevm1ss.github.io', // Usually your repo name.
   trailingSlash: false, // Recommended to set to false
 
   onBrokenLinks: 'throw',
