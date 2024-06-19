@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "gh-pages -d build -r https://github.com/nevm1ss/my-website.git",
+    "deploy": "gh-pages -d build -r https://github.com/nevm1ss/my-notes-with-docusaurus.git",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
