@@ -16,7 +16,7 @@ const config = {
   url: 'https://nevm1ss.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-website/',
+  baseUrl: '/my-notes-with-docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -40,12 +40,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/nevm1ss/my-website/tree/main/',
+            'https://github.com/nevm1ss/my-notes-with-docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/nevm1ss/my-website/tree/main/',
+            'https://github.com/nevm1ss/my-notes-with-docusaurus/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,16 +65,21 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'synergySidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Synergy',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/my-markdown-page', label: 'Synergy', position: 'left'},
           {
-            href: 'https://github.com/nevm1ss/my-website',
+            type: 'docSidebar',
+            sidebarId: 'advancedSidebar',
+            position: 'left',
+            label: 'Advanced',
+          },
+          {
+            href: 'https://github.com/nevm1ss/my-notes-with-docusaurus/',
             label: 'GitHub',
             position: 'right',
           },
@@ -118,7 +123,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/nevm1ss/my-website',
+                href: 'https://github.com/nevm1ss/my-notes-with-docusaurus',
               },
             ],
           },
